@@ -26,7 +26,7 @@ Graia Project 目前的主要工作是为 Bot Development 提供一系列高效,
     极具扩展性的, 并不止于事件系统的事件系统实现.
   * [Saya](https://github.com/GraiaProject/Saya) - [Docs](https://graia.readthedocs.io/saya/)  
     社区中通用的插件/模块管理器.
-  * [Scheduler](https://github.com/GraiaProject/Scheduler)  
+  * [Scheduler](https://github.com/GraiaProject/Scheduler) - [Docs@Ariadne](https://graia.readthedocs.io/ariadne/extra/scheduler/)  
     一个简单的定时任务实现, 与 Broadcast Control 深度结合.
 * Infrastructure
   * [Amnesia](https://github.com/GraiaProject/Amnesia)  
@@ -37,15 +37,23 @@ Graia Project 目前的主要工作是为 Bot Development 提供一系列高效,
     统一的应用实例启动时部件管理.
   * [statv](https://github.com/GraiaProject/statv) - [Docs](https://graia.readthedocs.io/other/statv/)  
     `Status API` 的实际实现.
-  * [richuru](https://github.com/GreyElaina/richuru)  
+  * [GreyElaina/richuru](https://github.com/GreyElaina/richuru)  
     一个轻量级的依赖, 为 [`loguru`](https://github.com/Delgan/loguru) 提供 [`rich`](https://github.com/willmcgugan/rich) 强大的终端渲染支持.
-  * [Mina](https://github.com/GreyElaina/Mina)  
+  * [GreyElaina/Mina](https://github.com/GreyElaina/Mina)  
     基于 `pdm-pep517` 实现的 Monorepo for Python 实现.
-  * **WIP** [kayaku](https://github.com/GraiaCommunity/kayaku)  
+  * **WIP** [GraiaCommunity/kayaku](https://github.com/GraiaCommunity/kayaku)  
     强大的配置管理解决方案.
   * **Planned** [Luma](https://github.com/GraiaProject/Luma)  
     基于 `kayaku` 与 `creart` 等组件, 实现无入口文件的应用实例启动, 为之诞生的 CLI 工具.  
     亦提供基于现有设施的 Saya 模块的管理, 目前 `pdm` 与 `poetry` 的支持已列入 Roadmap.
+* Documents
+  * [GraiaProject/Document](https://github.com/GraiaProject/Document)  
+    文档地址: https://graia.readthedocs.io/
+    由官方人员维护的 Graia Project 旗下项目的文档.
+  * [GraiaCommunity/Docs](https://github.com/GraiaCommunity/Docs)  
+    文档地址: https://graiax.cn/
+    社区成员维护的文档, 较为易于理解, 但作为文档来说不够严肃.
 * Referenced Tools
-  * **Unofficial** [Alconna](https://github.com/ArcletProject/Alconna/) & [Alconna for Graia](https://github.com/ArcletProject/Alconna-Graia)  
-    强大, 灵活, 高效的命令参数解析器, 以及原作者提供的原生 Graia Project 系生态系统的支持.
+  * **Unofficial** [ArcletProject/Alconna](https://github.com/ArcletProject/Alconna/) & [Alconna for Graia](https://github.com/ArcletProject/Alconna-Graia)  
+    强大, 灵活, 高效的命令参数解析器, 以及原作者提供的为 Graia Project 系的支持.
+  

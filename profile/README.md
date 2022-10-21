@@ -24,6 +24,8 @@ Graia Project 目前的主要工作是为 Bot Development 提供一系列高效,
 * Framework Tools
   * [Broadcast Control](https://github.com/GraiaProject/BroadcastControl) - [Docs](https://graia.readthedocs.io/broadcast/)  
     极具扩展性的, 并不止于事件系统的事件系统实现.
+  * [Teague](https://github.com/GraiaProject/Teague)
+    Broadcast Control 的实验性替代方案, 旨在提供类型安全, 高性能与高可扩展性.
   * [Saya](https://github.com/GraiaProject/Saya) - [Docs](https://graia.readthedocs.io/saya/)  
     社区中通用的插件/模块管理器.
   * [Scheduler](https://github.com/GraiaProject/Scheduler) - [Docs@Ariadne](https://graia.readthedocs.io/ariadne/extra/scheduler/)  
